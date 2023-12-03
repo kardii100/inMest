@@ -36,15 +36,7 @@
       <tr *ngFor="let item of attendance;" >
           <td class="py-3 px-4">{{item.id}}</td>
           <td class="py-3">
-             <p style="border-radius: 40px;margin:0px;color:#000000;border: 0.5px solid rgba(0, 0, 0, 0.2);padding:5px 40px;width:fit-content">
-               <a [routerLink]="['/attendance-inner', item?.id]">{{item.eit_id}}</a> <br/>
-              <span>
-                  <i class="fa fa-circle" aria-hidden="true" style="color: #21999D;padding:5px;"></i>
-                  <i class="fa fa-circle" aria-hidden="true" style="color: #21999D;padding:5px;"></i>
-                  <i class="fa fa-circle" aria-hidden="true" style="color: #000000;padding:5px;"></i>
-              </span>
-              <span style="float: right;">2 minutes</span>
-            <a style="text-decoration: none;" [routerLink]="['/leave']">
+          <a style="text-decoration: none;" [routerLink]="['/attendance-inner']">
               
              <button class="btn btn-link" style="display:flex;font-size: 0.82rem;border-radius: 40px;margin:0px;color:#000000;border: 0.5px solid rgba(0, 0, 0, 0.2);padding:5px 40px;width:fit-content;text-decoration: none;">
               <div>
@@ -63,6 +55,7 @@
               
             </button> 
           </a>
+
           </td>
           <td class="py-3">{{item.reporting_time}}</td>
           <td class="py-3">
