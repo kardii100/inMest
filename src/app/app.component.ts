@@ -9,7 +9,7 @@ import {
 import { CommonModule } from '@angular/common';
 import { FormsModule } from '@angular/forms';
 import { RouterOutlet } from '@angular/router';
-import { LoginComponent } from './auth/login/login.component';
+import { LoginComponent } from '../app/auth/login/login/login.component';
 import { SideNavComponent } from './app-core/common/side-nav/side-nav.component';
 import { TopNavComponent } from "./app-core/common/top-nav/top-nav.component";
 

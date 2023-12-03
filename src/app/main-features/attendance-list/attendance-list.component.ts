@@ -9,8 +9,8 @@ export interface Student {
 
 @Component({
   selector: 'app-attendance-list',
-  templateUrl: './attendance-list.component.html',
-  styleUrls: ['./attendance-list.component.css'],
+  templateUrl: '../attendance-list/attendance-list.component.html',
+  styleUrls: ['../attendance-list/attendance-list.component.scss'],
 })
 export class AttendanceListComponent {
   displayedColumns: string[] = ['studentNo', 'name', 'email', 'status'];
