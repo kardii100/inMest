@@ -1,6 +1,8 @@
 import { Routes } from '@angular/router';
 import { UsersComponent } from './main-features/users/users.component';
 import { UserDetailComponent } from './main-features/user-detail/user-detail.component';
+
+import { NewUserComponent } from './main-features/new-user/new-user.component';
 import { AttendanceComponent } from './main-features/attendance/attendance.component';
 import { LeaveComponent } from './main-features/leaves/leaves.component';
 import { LeaveDetailComponent } from './main-features/leave-detail/leave-detail.component';
@@ -12,6 +14,7 @@ import { ItSupportComponent } from './main-features/it-support/it-support.compon
 export const routes: Routes = [
     {path: '', component: HomeComponent},
     {path: 'users', component: UsersComponent},
+    {path: 'new-user', component: NewUserComponent},
     {path:'attendance',component:AttendanceComponent},
     {path: 'leaves', component: LeaveComponent},
     {path: 'leaves/:id/:name', component: LeaveDetailComponent},

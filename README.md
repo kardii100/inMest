@@ -25,7 +25,7 @@ https://github.com/Surfskills/learning-angular/tree/main/inmest-2014/src/app/mai
 - Requests (Requests Tab)
 https://github.com/imKaba/inMestAssignment/tree/imKaba
 
-- Requests (Total Approval Tab)
+- Requests (Total Approval Tab) (Pending)
 
 
 ### Attendance
@@ -40,7 +40,8 @@ https://github.com/courtneyletsa/inmest
 - Profile Page
 https://github.com/GenesisOzzy/inmest-demo-team-DEG/tree/ezechiel
 - Settings User https://github.com/boypaida12/inMest-Angular
-- New User (Pending)
+- New User
+https://github.com/Adama101/inMEST_Group_Assignment
 
 
 ### Auth Login 
