@@ -25,3 +25,13 @@ https://github.com/Surfskills/learning-angular/tree/main/inmest-2014/src/app/mai
 ### Attendance
 - Attendance
 https://github.com/courtneyletsa/inmest
+
+- Attendance Register
+https://github.com/LOHRENZOEVAN/Inmestapp
+
+
+### User
+- Profile Page
+https://github.com/GenesisOzzy/inmest-demo-team-DEG/tree/ezechiel
+- New Userr
+https://github.com/Adama101/inMEST_Group_Assignment
