@@ -33,5 +33,5 @@ https://github.com/LOHRENZOEVAN/Inmestapp
 ### User
 - Profile Page
 https://github.com/GenesisOzzy/inmest-demo-team-DEG/tree/ezechiel
-- New Userr
+- New User
 https://github.com/Adama101/inMEST_Group_Assignment
