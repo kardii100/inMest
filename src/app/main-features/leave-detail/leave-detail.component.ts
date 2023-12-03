@@ -24,17 +24,10 @@ export class LeaveDetailComponent implements OnInit {
   ngOnInit(): void {
     this.route.params.subscribe(param => {
       this.leaveId = param["id"];
-      this.getMyLeaveById(parseInt(this.leaveId));
+      this.getMyLeaveByID(parseInt(this.leaveId));
     });
   }
 
-  getMyLeaveById(id: number) {
-    this.leaveService.getLeaveById(id).subscribe(resp => {
-      this.leave = resp;
-    });
-  }
-
-  // Define your methods with correct syntax
   returnToLeaves(): void {
     // Implement return logic
     console.log('Return to Leaves clicked');
@@ -48,5 +41,11 @@ export class LeaveDetailComponent implements OnInit {
   declineRequest(): void {
     // Implement decline logic
     console.log('Decline request clicked');
+  }
+
+  getMyLeaveByID(id: number): void {
+    this.leaveService.getLeaveByID(id).subscribe((resp: any) => {
+      this.leave = resp;
+    });
   }
 }
