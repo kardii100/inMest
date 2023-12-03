@@ -10,6 +10,7 @@ import { SettingsComponent } from './main-features/settings/settings.component';
 import { HomeComponent } from './main-features/home/home.component';
 import { ItSupportComponent } from './main-features/it-support/it-support.component';
 import { AttendanceRegisterComponent } from './main-features/attendance-register/attendance-register.component';
+import { AttendanceInnerComponent } from './main-features/attendance-inner/attendance-inner.component';
 
 export const routes: Routes = [
     {path: '', component: HomeComponent},
@@ -19,6 +20,7 @@ export const routes: Routes = [
     {path: 'leaves', component: LeavesComponent},
     {path: 'leaves/:id/:name', component: LeaveDetailComponent},
     {path: 'attendance-register', component: AttendanceRegisterComponent},
+    {path:'attendance-inner/:id',component:AttendanceInnerComponent},
     {path: 'user-detail', component: UserDetailComponent},
     {path : 'analytics', component: AnalyticsComponent},
     {
@@ -26,4 +28,5 @@ export const routes: Routes = [
         component: SettingsComponent,
       },
   {path: 'it-support', component: ItSupportComponent}
+
 ];

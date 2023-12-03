@@ -35,7 +35,8 @@ https://github.com/courtneyletsa/inmest
 - Attendance Register
 https://github.com/silakironji/inmest
 
-- Attendance Inner (Pending)
+- Attendance Inner
+https://github.com/courtneyletsa/inmest/
 
 
 ### User
