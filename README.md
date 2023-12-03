@@ -32,7 +32,9 @@ https://github.com/imKaba/inMestAssignment/tree/imKaba
 - Attendance
 https://github.com/courtneyletsa/inmest
 
-- Attendance Register (Pending)
+- Attendance Register
+https://github.com/silakironji/inmest
+
 - Attendance Inner (Pending)
 
 
