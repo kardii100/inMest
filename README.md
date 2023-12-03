@@ -20,3 +20,8 @@ https://github.com/apolloshadrack/angular.git
 ### Requests 
 - Request Detail
 https://github.com/Surfskills/learning-angular/tree/main/inmest-2014/src/app/main-features/leave-detail
+
+
+### Attendance
+- Attendance
+https://github.com/courtneyletsa/inmest
