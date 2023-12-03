@@ -7,7 +7,7 @@ import { LeaveDetailComponent } from './main-features/leave-detail/leave-detail.
 import { AnalyticsComponent } from './main-features/analytics/analytics.component';
 import { SettingsComponent } from './main-features/settings/settings.component';
 import { HomeComponent } from './main-features/home/home.component';
-
+import { ItSupportComponent } from './main-features/it-support/it-support.component';
 
 export const routes: Routes = [
     {path: '', component: HomeComponent},
@@ -21,4 +21,5 @@ export const routes: Routes = [
         path: 'settings',
         component: SettingsComponent,
       },
+  {path: 'it-support', component: ItSupportComponent}
 ];
