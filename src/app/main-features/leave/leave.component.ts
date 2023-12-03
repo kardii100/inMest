@@ -5,18 +5,20 @@ import { LeaveService } from '../../services/leave.service';
 import { MatTabsModule } from '@angular/material/tabs';
 import { MatTableModule } from '@angular/material/table';
 import { MatCardModule } from '@angular/material/card';
-import { MaterialModule } from './../../material/material.module';
+import { MaterialModule } from '../../material/material.module';
+
+
 
 @Component({
   selector: 'app-leave',
   standalone: true,
   imports: [CommonModule, RouterLink, MatTabsModule, MatTableModule, MatCardModule, MaterialModule],
-  templateUrl: './leaves.component.html',
-  styleUrl: './leaves.component.scss',
+  templateUrl: './leave.component.html',
+  styleUrl: './leave.component.scss',
   encapsulation: ViewEncapsulation.None
 })
 
-export class LeavesComponent implements OnInit {
+export class LeaveComponent implements OnInit {
   dataSource :any;
   displayedColumns:string [] = [];
   leaves: any[] = [];

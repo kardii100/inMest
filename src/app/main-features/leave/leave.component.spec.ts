@@ -1,6 +1,6 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { LeavesComponent } from './leaves.component';
+import { LeavesComponent } from './leave.component';
 
 describe('LeavesComponent', () => {
   let component: LeavesComponent;
