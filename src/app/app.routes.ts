@@ -17,7 +17,7 @@ export const routes: Routes = [
     {path: 'users', component: UsersComponent},
     {path: 'new-user', component: NewUserComponent},
     {path:'attendance',component:AttendanceComponent},
-    {path: 'leaves', component: LeavesComponent},
+    {path: 'requests', component: LeavesComponent},
     {path: 'leaves/:id/:name', component: LeaveDetailComponent},
     {path: 'attendance-register', component: AttendanceRegisterComponent},
     {path:'attendance-inner/:id',component:AttendanceInnerComponent},
