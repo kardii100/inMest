@@ -7,6 +7,8 @@ import { MyClassesComponent } from './main-features/my-classes/my-classes.compon
 import { LeavesComponent } from './main-features/leaves/leaves.component';
 import { LeaveDetailComponent } from './main-features/leave-detail/leave-detail.component';
 import { AnalyticsComponent } from './main-features/analytics/analytics.component';
+import { SettingsComponent } from './main-features/settings/settings.component';
+
 
 export const routes: Routes = [
     {path: '', component: DashboardComponent},
@@ -17,4 +19,8 @@ export const routes: Routes = [
     {path: 'leaves/:id/:name', component: LeaveDetailComponent},
     {path: 'user-detail', component: UserDetailComponent},
     {path : 'analytics', component: AnalyticsComponent},
+    {
+        path: 'settings',
+        component: SettingsComponent,
+      },
 ];
