@@ -22,6 +22,7 @@ export class LeaveComponent implements OnInit {
   dataSource :any;
   displayedColumns:string [] = [];
   leaves: any[] = [];
+  requestsTotal : any;
 
   constructor(
     private leaveService: LeaveService
@@ -37,6 +38,7 @@ export class LeaveComponent implements OnInit {
       this.getLeaves();
       this.displayedColumns = ['id', 'EIT_id', 'type', 'date', 'status'];
       this.dataSource = this.leaves;
+      this.requestsTotal = this.leaves;
   }
 
 }
