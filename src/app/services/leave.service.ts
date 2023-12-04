@@ -111,6 +111,9 @@ export class LeaveService {
   getLeaves() {
     return of(this.leavesDB)
   }
+  getApprovedLeaves() {
+    return of(this.leavesDB.filter(leave => leave.status === 'Accepted'));
+  }
   
   getLeaveByID(id:number){
     return of(this.leavesDB.find(element => element.id === id));
