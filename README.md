@@ -25,7 +25,8 @@ https://github.com/Surfskills/learning-angular/tree/main/inmest-2014/src/app/mai
 - Requests (Requests Tab)
 https://github.com/imKaba/inMestAssignment/tree/imKaba
 
-- Requests (Total Approval Tab) (Pending)
+- Requests (Total Approval Tab)
+https://github.com/AJKossi/inMest-frontend
 
 
 ### Attendance
